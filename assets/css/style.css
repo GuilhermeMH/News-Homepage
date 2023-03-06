@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+:root {
+    --highlight-one: hsl(35, 77%, 62%);
+    --highlight-two: hsl(5, 85%, 63%);
+
+    --text-secondary: hsl(36, 100%, 99%);
+    --text-tertiary: hsl(233, 8%, 79%);
+    --text-primary: hsl(236, 13%, 42%);
+    --titles: hsl(240, 100%, 5%);
+}
+
+body {
+    font-family:'Inter', sans-serif;
+}
+
+p {
+    color: var(--text-primary);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    min-width: 35rem;
+}
+
+.logo {
+    margin-left: 12rem;
+}
+
+
+.ul-menu {
+    display: flex;
+    padding: 2rem;
+    margin-right: 4rem;
+    color: var(--text-primary);
+    justify-content: space-between;
+}
+
+li {
+    padding: 0.5rem 1.5rem;
+    font-size: 14px;
+    color: var(--text-primary);
+}
+.a-header {
+    color: var(--text-primary);
+}
+
+
+.a-header:hover {
+    color: var(--highlight-one);
+    transition: 0.5s;
+}
+
+.principal {
+    display: flex;
+
+}
+
+.banner {
+    width: 55rem;
+    
+}
+.artigo-principal{
+    margin: 1rem 1rem 3rem 12rem;
+    width: 60%;
+}
+
+.artigo {
+    display: flex;
+    margin: 1.5rem 0;
+    gap: 3em;
+}
+
+.primeiro-texto {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: flex-start;
+    max-width: 50.5%
+}
+ h1 {
+    color: var(--titles);
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.primeiro-texto p {
+    font-size: 16px;
+    line-height: 1.5rem;
+}
+
+.primeiro-texto button {
+    width: 45%;
+    height: 25%;
+    border-radius: 0;
+    border: none;
+    color: var(--text-secondary);
+    background-color: var(--highlight-two);
+}
+
+.primeiro-texto button:hover {
+    color: var(--text-secondary);
+    background-color: var(--highlight-one);
+    cursor: pointer;
+    transition: 0.75s;
+}
+
+.new {
+    display: flex;
+    flex-direction: column;
+    width: 22rem;
+    height: 25.80rem;
+    background-color: var(--titles);
+    margin: 1rem 7rem 2rem 1rem;
+    padding: 1rem 0.5rem 1rem 0.5rem;
+}
+
+.new h2 {
+    color: var(--highlight-one);
+    font-size: 40px;
+    font-weight: 700;
+    padding-left: 0.5rem;
+    margin-bottom: 1.75rem;
+}
+
+
+.new article {
+    margin: 1rem;
+}
+
+.new article a{
+    color: var(--text-secondary);
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.new article a:hover {
+    color: var(--highlight-two);
+    cursor: pointer;
+    transition: 0,75s;
+}
+
+.new article p{
+    font-size: 14px;
+    padding-top: 1rem;
+    line-height: 0.85rem;
+    text-align: justify;
+}
+
+hr {
+    border: 0;
+  height: 2px;
+  background-image: linear-gradient(to right, transparent, var(--text-primary), transparent);  
+  margin-top: 1.5rem;
+}
+.trend {
+    display: flex;
+    flex-direction: row;
+    margin: 0.5rem 6rem 0.5rem 12rem;
+    
+}
+
+.trending img {
+    width: 6rem;
+    display: flex;
+}
+.trending {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1rem;
+    
+}
+
+.artigo-123{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+
+}
+
+.artigo-123 p {
+    font-size: 14px;
+    line-height: 1.12rem;
+}
+
+h3 {
+    color: var(--text-primary);
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 0 1rem 0;
+
+}
+
+.link-trend {
+    color: var(--titles);
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.link-trend:hover {
+    color: var(--highlight-two);
+    transition: 0,75s;
+}
+
+footer{
+    text-align: center;
+    margin: 3rem 0 1rem 0;
+}
+
+footer a {
+    color: brown;
+}
+
+@media (max-width: 700px) {
+    .cabecalho {
+        margin: none;
+        display: flex;
+        width: auto;
+        
+    }
+
+    .cabecalho li {
+        width: 1rem;
+        padding: 0.5rem;
+        margin-right: 2rem;
+
+    }
+
+    .logo{
+        margin-left: 2rem;
+    }
+
+    .banner{
+        width: 22rem;
+        height: 22rem;
+        object-fit: cover;
+      
+    }
+
+    .artigo{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0rem;
+        align-items: center;
+        width: 20rem;
+    }
+
+    h1 {
+        display: flex;
+        margin: auto;
+        margin-left: 1rem;
+        width: 23rem;
+        
+    }
+
+    .primeiro-texto{
+        margin-left: 1rem;
+       
+    }
+    .primeiro-texto p{
+       
+        margin: auto;
+        width: 13rem;
+    }
+    .artigo-principal{
+        margin: 1rem  ;
+    }
+    .principal{
+        flex-direction: column;
+    }
+
+    .trend{
+        flex-direction: column;
+        margin-left: 2rem;
+
+    }
+
+    .trending {
+        width: auto;
+    }
+}
