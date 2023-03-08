@@ -30,6 +30,9 @@ header {
     margin-left: 12rem;
 }
 
+.material-symbols-outlined{
+    visibility: hidden;
+}
 
 .ul-menu {
     display: flex;
@@ -224,11 +227,23 @@ footer a {
         
     }
 
-    .cabecalho li {
-        width: 1rem;
-        padding: 0.5rem;
-        margin-right: 2rem;
+    .menu{
+        display: inline;
+        
+    }
+    
+    .material-symbols-outlined{
+        visibility: visible;
+        display: inline;
+        margin-left: 11.5rem;
+        margin-right: none;
+        width: 10rem;
+    }
 
+    .cabecalho li {
+        visibility: hidden;
+        display: flex;
+        align-items: right;
     }
 
     .logo{
@@ -236,51 +251,81 @@ footer a {
     }
 
     .banner{
+        margin-left: 0.5rem;
         width: 22rem;
-        height: 22rem;
+        height: 20rem;
         object-fit: cover;
+        margin: 0 0.2rem 0 0.2rem;
       
     }
 
     .artigo{
         display: flex;
         flex-direction: column;
-        margin-left: 0rem;
-        align-items: center;
+        margin-left: none;
+
         width: 20rem;
     }
 
     h1 {
         display: flex;
         margin: auto;
+        margin-bottom: none;
         margin-left: 1rem;
         width: 23rem;
         
     }
 
     .primeiro-texto{
-        margin-left: 1rem;
+        margin-left: none;
        
     }
     .primeiro-texto p{
        
-        margin: auto;
-        width: 13rem;
+        margin-left: 1.5rem;
+        width: 20rem;
     }
     .artigo-principal{
         margin: 1rem  ;
     }
+
+    .primeiro-texto button {
+        flex-direction: row;
+        margin: 0.5rem 0 0 1.5rem;
+        width: 100%;
+    }
+
     .principal{
         flex-direction: column;
     }
 
+    .new {
+        width: 85%;
+        margin-left: 1.25rem;
+    }
+    
     .trend{
         flex-direction: column;
         margin-left: 2rem;
+       
 
     }
 
     .trending {
-        width: auto;
+        width: 90%;
+        
+    }
+
+    .trending img{
+        width: 40%;
+        height: 30%;
+        object-fit: cover;
+
+    }
+
+    footer {
+        width: 90%;
+        margin: 3rem 1.5rem 1rem 1rem;
+        
     }
 }
