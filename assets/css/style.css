@@ -63,7 +63,7 @@ li {
 }
 
 .banner {
-    width: 55rem;
+    width: 50rem;
     
 }
 .artigo-principal{
@@ -114,8 +114,7 @@ li {
 .new {
     display: flex;
     flex-direction: column;
-    width: 22rem;
-    height: 25.80rem;
+    width: 23rem;
     background-color: var(--titles);
     margin: 1rem 7rem 2rem 1rem;
     padding: 1rem 0.5rem 1rem 0.5rem;
