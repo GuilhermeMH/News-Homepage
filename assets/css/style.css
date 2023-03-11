@@ -210,12 +210,14 @@ h3 {
 }
 
 footer{
+    font-size: 12px;
     text-align: center;
     margin: 3rem 0 1rem 0;
 }
 
 footer a {
     color: brown;
+    font-size: 12px;
 }
 
 @media (max-width: 700px) {
@@ -299,8 +301,8 @@ footer a {
     }
 
     .new {
-        width: 85%;
-        margin-left: 1.25rem;
+        width: 65%;
+        margin-left: 2.25rem;
     }
     
     .trend{
@@ -324,7 +326,7 @@ footer a {
 
     footer {
         width: 90%;
-        margin: 3rem 1.5rem 1rem 1rem;
+        margin: 3rem 1.5rem 0 1rem;
         
     }
 }
