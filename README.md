@@ -1,3 +1,7 @@
-Olá a todos!
+# Frontend Mentor - News homepage
 
-Esse foi um projeto realizo ultilizando elementos de CSS flexbox e Layout responsivo.
+![Design preview for the News homepage coding challenge](./design/desktop-preview.jpg)
+
+## Olá! 👋
+
+Esse projeto se refere a um blog de notícias de tecnolologia em ingles, ultilizando elementos Flexbox e layout responsivo.
