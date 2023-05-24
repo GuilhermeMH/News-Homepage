@@ -8,3 +8,4 @@
 
 
 Esse projeto se refere a um blog de notícias de tecnolologia em ingles, ultilizando elementos Flexbox e layout responsivo.
+.
